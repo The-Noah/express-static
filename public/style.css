@@ -1,0 +1,37 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Consolas;
+  overflow: hidden;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+#bg-image{
+  width: 100vw;
+  height: 100vh;
+  padding: 128px;
+  transform: translate(-64px, -64px);
+  filter: blur(8px);
+  -moz-filter: blur(8px);
+  -webkit-filter: blur(8px);
+  background-image: url("background.jpeg");
+  background-color: #000;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#content{
+  position: absolute;
+  top: 50%;
+  left: 100px;
+  font-size: 50px;
+  color: #FFF;
+}
+#content h1{
+  width: 400px;
+  height: 226px;
+  margin: 0;
+  position: absolute;
+  top: -125px;
+}
